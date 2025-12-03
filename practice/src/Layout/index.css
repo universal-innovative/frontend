@@ -1,0 +1,14 @@
+.header-v {
+  position: fixed;
+  padding: 0 1rem;
+  left: 0rem;
+}
+.nav-bar-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+}
+.h-layout {
+  position: relative;
+}

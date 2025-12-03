@@ -1,0 +1,57 @@
+JS Fundamentals & Polyfills
+
+curry() (with and without placeholders)
+
+debounce(), throttle() (both basic and with leading/trailing options)
+
+Event Emitter
+
+Array.prototype.map / reduce / flat / filter (map & reduce are more common)
+
+Promise polyfills: all, race, allSettled, any, finally
+
+Implement new operator, call, apply, bind
+
+Object.assign, JSON.stringify
+
+deepClone (\_.cloneDeep)
+
+deepEqual (\_.isEqual)
+
+promisify
+
+Async mastery
+
+LazyMan (classic async chaining problem)
+
+throttle Promises
+
+auto-retry Promise
+
+async sequence helper
+
+merge identical API calls
+
+Algorithms often tested in JS interviews
+
+Shuffle array
+
+Move zeros
+
+Intersection of unsorted arrays
+
+Find the single integer (XOR trick)
+
+Queue using stacks
+
+Decode message / Uncompress string
+
+DOM & Browser basics
+
+Event delegation
+
+Virtual DOM I
+
+Traverse DOM (level by level / height)
+
+Find corresponding node in two identical DOM tree

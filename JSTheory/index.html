@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Closure Debug Demo</title>
+  </head>
+  <body>
+    <h2>Closure Inspection Demo</h2>
+    <button id="btn">Run Inner Function</button>
+
+    <script>
+      function outerr() {
+        let secret = 42;
+        let msg = "Hello Closure 👋";
+
+        function inner() {
+          // Put a breakpoint on the next line in DevTools
+          console.log("Inside inner:", secret, msg);
+        }
+
+        return inner;
+      }
+
+      const fn = outerr();
+
+      document.getElementById("btn").addEventListener("click", () => {
+        fn(); // when you click, inner() runs
+      });
+
+      // Try this in console too:
+      console.dir(fn); // expand in DevTools console to see [[Scopes]]
+    </script>
+  </body>
+</html>

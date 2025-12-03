@@ -1,0 +1,40 @@
+#to-do-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo-tabs-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-tab-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  list-style: none;
+}
+.todo-tab {
+  width: 100px;
+  flex: 1 1 100px;
+  padding: 8px;
+}
+.todo-tab button {
+  width: 100%;
+}
+.todo-title {
+  background-color: blueviolet;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+}
+.todo-input-container {
+  display: flex;
+  gap: 8px;
+}

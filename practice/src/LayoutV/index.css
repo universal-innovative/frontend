@@ -1,0 +1,16 @@
+.header-v {
+  padding: 0 1rem;
+  left: 3rem;
+  margin: 0 auto;
+}
+.nav-panel-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+}
+.v-layout {
+  display: grid;
+  grid-template-columns: 10 1fr 9fr;
+  margin-top: 4rem;
+}

@@ -1,0 +1,15 @@
+.title {
+  padding: 4px;
+}
+.content-box {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.content-box.active {
+  max-height: 200px;
+}
+.content-box.in-active {
+  max-height: 200px;
+}

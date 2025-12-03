@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="src/img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script defer src="bundle.js"></script>
+
+    <title>PRMD UI</title>
+  </head>
+
+  <body>
+  
+    <nav>
+      <h2>PRMD UI</h2>
+      <ul>
+        <li><a href="#" onclick="showPage('home')">Home</a></li>
+        <li><a href="#" onclick="showPage('products')">Products</a></li>
+        <li><a href="#" onclick="showPage('reviews')">Reviews</a></li>
+        <li><a href="#" onclick="showPage('polls')">Polls</a></li>
+        <li><a href="#" onclick="showPage('grid')">Grid</a></li>
+        <li><a href="#" onclick="showPage('grid-infintie-scroll')">Grid infinite scroll</a></li>
+        <li><a href="#" onclick="showPage('js-practice')">Javascript Practice</a></li>
+        <li><a href="#" onclick="showPage('to-do-list')">To Do List</a></li>
+      </ul>
+    </nav> 
+    <div id="home" class="page" >
+      <h1>Home Page</h1>
+      <p>Welcome to the home page.</p>
+    </div>
+  
+    <div id="products" class="page">
+      <h1>Dashboard</h1>
+      <p>Here are our products.</p>
+    </div>
+  
+    <div id="reviews" class="page">
+      <h1>Reviews Page</h1>
+      <p>Check out customer reviews.</p>
+    </div>
+  
+    <div id="polls" class="page">
+      <h1>Polls Page</h1>
+      <p>Participate in our polls.</p>
+    </div>
+    <div id="grid" class="page">
+      <h1>Grid</h1>
+    </div>
+    <div id="grid-infintie-scroll" class="page">
+      <h1>Grid infinite scroll</h1>
+    </div>
+    <div id="to-do-list" class="page active">
+       <h1 class="todo-title">Todo Board</h1>
+       <div class="todo-input-container">
+        <input class="todo-input" placeholder="What do do?" type="text" id="i-text" name="text" />
+        <input type="date" class="todo-due-date-input" name="due-date">
+        <button class="todo-add-task-button">Add task</button>
+      </div>
+      <div class="todo-tabs-div">
+          
+         <ul class="todo-tab-list" >
+           <li class="todo-tab" ><button>Today</button></li>
+           <li class="todo-tab" ><button>Pending</button></li>
+           <li class="todo-tab" ><button>Overdue</button></li>
+           <li class="todo-tab" ><button>Completed</button></li>
+         </ul>
+      </div>
+      
+      <div class="todo-list-wrapper">
+        <ul class="todo-list-ul"></ul>
+      </div>
+    </div>
+    <div id="js-practice" class="page">
+      <h1>Javascript Practice</h1>
+    </div>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="favicon" href="./clock.png" />
+    <!-- font awesome link    -->
+    <script src="https://kit.fontawesome.com/4816df8f37.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Document</title>
+    <style>
+        .stars{
+            display: flex;
+            width: 80px;
+            margin: auto;
+            font-size: 100px;
+        }
+        .stars a{
+            opacity: 50%;
+            cursor: pointer;
+        }
+        .stars:hover a{
+            opacity: 100%;
+        }
+        .stars a:hover ~ a {
+            opacity: 50%;
+        }
+        input{
+            margin-left: 32%;
+            visibility:hidden;
+        }
+    </style>
+</head>
+<body>
+    <p>Star Rating JS .</p>
+    <div class="stars">
+        <a>⭐</a>
+        <a>⭐</a>
+        <a>⭐</a>
+        <a>⭐</a>
+        <a>⭐</a>
+    </div>
+    <!-- second approach -->
+    <!-- <div class="star-container">
+        <span key="0" class="star">&#9734;</span>
+        <span key="1" class="star">&#9734;</span>
+        <span key="2" class="star">&#9734;</span>
+        <span key="3" class="star">&#9734;</span>
+        <span key="4" class="star">&#9734;</span>
+    </div> -->
+    <input type="text" placeholder="add the comment">
+    <script src="./index.js"></script>
+    <script src="./code.js"></script>
+</body>
+</html>

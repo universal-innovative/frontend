@@ -1,0 +1,15 @@
+.star-container {
+  text-align: center;
+}
+.star {
+  font-size: 40px;
+  cursor: pointer;
+  opacity: 50%;
+  color: red;
+}
+.star-container:hover .star {
+  opacity: 100%;
+}
+.star:hover ~ .star {
+  opacity: 50%;
+}
