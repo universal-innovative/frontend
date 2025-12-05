@@ -38,7 +38,8 @@ function promiseAll(iterable) {
     const total = arr.length;
 
     if (total === 0) {
-      return resolve([]);
+     resolve([]);
+      return 
     }
     for (let i = 0; i < total; i++) {
       Promise.resolve(arr[i])
